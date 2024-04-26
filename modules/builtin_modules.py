@@ -7,11 +7,11 @@ location = sys.path
 for n in location:
     print('\n',n)
 
-
+#More examples of built-in modules
 import calendar
 leap_year = calendar.leapdays(2000,2024)
 
 print(leap_year)
-
+#Use of the isleap method of the 'calendar' module
 is_leap_year = calendar.isleap(2024)
 print(is_leap_year)
