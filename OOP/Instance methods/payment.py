@@ -20,3 +20,10 @@ maria = Paylips("Maria", "yes", 3000)
 print(diego.status())
 print(maria.status())
 
+diego.pay()
+
+print('After paying diego:')
+
+print(diego.status())
+
+

@@ -1,11 +1,14 @@
-class Myclass:
-    attribute = 5
-    def greeting(self):
-        print('Hello world!')
+class myHouse:
+    num_of_rooms = 5
+    num_of_bathrooms = 5
+
+    def calculate_cost(self):
+        print(self.num_of_rooms)
+        pass
 
 
-#instanciation of Myclass
+myHouse1 = myHouse()
+myHouse1.num_of_rooms=8
 
-myclass1 = Myclass();
-
-print(myclass1.greeting())
+print(myHouse1.num_of_rooms)
+print(myHouse.num_of_rooms)
